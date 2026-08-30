@@ -1,0 +1,77 @@
+// Prisma Schema for Caprae LeadGenius AI
+// Configured for PostgreSQL / MongoDB
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Company {
+  id              String           @id @default(uuid())
+  name            String
+  domain          String           @unique
+  website         String
+  industry        String
+  location        String?
+  arrRange        String?
+  employees       Int?
+  growthRate      String?
+  techStack       String[]         // GIN-indexed in Postgres
+  icpScore        Int              @default(50)
+  scoreBreakdown  Json?            // ICP Fit, Growth Signal, M&A Potential
+  aiInsights      String?          @db.Text
+  status          LeadStatus       @default(NEW)
+  contacts        DecisionMaker[]
+  outreaches      OutreachCampaign[]
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  @@index([domain])
+  @@index([icpScore(sort: Desc)])
+  @@index([industry])
+}
+
+model DecisionMaker {
+  id              String           @id @default(uuid())
+  companyId       String
+  name            String
+  title           String
+  email           String           @unique
+  emailStatus     String           // VERIFIED, VALID_MX, RISKY
+  linkedin        String?
+  company         Company          @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  createdAt       DateTime         @default(now())
+}
+
+model OutreachCampaign {
+  id              String           @id @default(uuid())
+  companyId       String
+  campaignType    String
+  coldEmailSubject String
+  coldEmailBody   String           @db.Text
+  linkedinInMail  String           @db.Text
+  followUpSubject String
+  followUpBody    String           @db.Text
+  status          OutreachStatus   @default(GENERATED)
+  company         Company          @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  createdAt       DateTime         @default(now())
+}
+
+enum LeadStatus {
+  NEW
+  ENRICHED
+  OUTREACH_GENERATED
+  CONTACTED
+  CONVERTED
+}
+
+enum OutreachStatus {
+  GENERATED
+  QUEUED
+  SENT
+  REPLIED
+}

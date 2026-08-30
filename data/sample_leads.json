@@ -1,0 +1,176 @@
+[
+  {
+    "id": "lead-001",
+    "name": "CloudNova Systems",
+    "domain": "cloudnova.io",
+    "website": "https://cloudnova.io",
+    "industry": "B2B SaaS / DevOps",
+    "location": "Austin, TX, USA",
+    "arrRange": "$4.5M - $6.0M",
+    "employees": 42,
+    "growthRate": "+38% YoY",
+    "techStack": ["Next.js", "Node.js", "AWS Lambda", "PostgreSQL", "Stripe", "HubSpot", "Segment"],
+    "decisionMaker": {
+      "name": "Marcus Vance",
+      "title": "Co-Founder & Chief Technology Officer",
+      "email": "m.vance@cloudnova.io",
+      "emailStatus": "VERIFIED (MX Passed)",
+      "linkedin": "https://linkedin.com/in/marcusvance-cloudnova"
+    },
+    "score": 94,
+    "scoreBreakdown": {
+      "icpFit": 96,
+      "growthSignal": 92,
+      "maPotential": 95,
+      "urgency": "High"
+    },
+    "aiInsights": "Bootstrapped B2B infra company hitting scale bottleneck. Prime candidate for Caprae post-acquisition MaaS acceleration & automated pipeline integration.",
+    "status": "Enriched",
+    "createdDate": "2026-08-28"
+  },
+  {
+    "id": "lead-002",
+    "name": "PulseMetrics Analytics",
+    "domain": "pulsemetrics.co",
+    "website": "https://pulsemetrics.co",
+    "industry": "Product Analytics & AI",
+    "location": "Boston, MA, USA",
+    "arrRange": "$2.8M - $3.5M",
+    "employees": 24,
+    "growthRate": "+24% YoY",
+    "techStack": ["React", "Python", "FastAPI", "GCP BigQuery", "Mixpanel", "Intercom"],
+    "decisionMaker": {
+      "name": "Elena Rostova",
+      "title": "Head of Product & Growth",
+      "email": "elena@pulsemetrics.co",
+      "emailStatus": "VERIFIED (MX Passed)",
+      "linkedin": "https://linkedin.com/in/elena-rostova-growth"
+    },
+    "score": 88,
+    "scoreBreakdown": {
+      "icpFit": 89,
+      "growthSignal": 85,
+      "maPotential": 90,
+      "urgency": "High"
+    },
+    "aiInsights": "Strong retention metrics but missing outbound sales engine. High ROI potential through automated lead gen and AI-driven messaging workflows.",
+    "status": "Outreach Generated",
+    "createdDate": "2026-08-27"
+  },
+  {
+    "id": "lead-003",
+    "name": "NexusPay Global",
+    "domain": "nexuspay.tech",
+    "website": "https://nexuspay.tech",
+    "industry": "FinTech / Embedded Finance",
+    "location": "New York, NY, USA",
+    "arrRange": "$8.2M - $10.5M",
+    "employees": 68,
+    "growthRate": "+45% YoY",
+    "techStack": ["Vue.js", "Go", "Docker", "Kubernetes", "Redis", "Datadog", "Salesforce"],
+    "decisionMaker": {
+      "name": "David Sterling",
+      "title": "Managing Director / VP Sales",
+      "email": "dsterling@nexuspay.tech",
+      "emailStatus": "VERIFIED (MX Passed)",
+      "linkedin": "https://linkedin.com/in/davidsterling-fintech"
+    },
+    "score": 91,
+    "scoreBreakdown": {
+      "icpFit": 94,
+      "growthSignal": 95,
+      "maPotential": 85,
+      "urgency": "Medium"
+    },
+    "aiInsights": "High volume payments infrastructure. Expanding enterprise sales team. Perfect synergy for high-ticket outbound pipeline automation.",
+    "status": "New",
+    "createdDate": "2026-08-29"
+  },
+  {
+    "id": "lead-004",
+    "name": "LogixFlow Freight",
+    "domain": "logixflow.io",
+    "website": "https://logixflow.io",
+    "industry": "Supply Chain & Logistics SaaS",
+    "location": "Chicago, IL, USA",
+    "arrRange": "$1.5M - $2.2M",
+    "employees": 18,
+    "growthRate": "+15% YoY",
+    "techStack": ["Angular", "C# / .NET", "Azure SQL", "SendGrid", "Zapier"],
+    "decisionMaker": {
+      "name": "Sarah Jenkins",
+      "title": "Founder & CEO",
+      "email": "sarah.jenkins@logixflow.io",
+      "emailStatus": "VERIFIED (MX Passed)",
+      "linkedin": "https://linkedin.com/in/sarahjenkins-logix"
+    },
+    "score": 82,
+    "scoreBreakdown": {
+      "icpFit": 84,
+      "growthSignal": 78,
+      "maPotential": 85,
+      "urgency": "Medium"
+    },
+    "aiInsights": "Legacy architecture migrating to modern cloud. Founder-led sales needing scalable outbound systems to break into mid-market carriers.",
+    "status": "New",
+    "createdDate": "2026-08-29"
+  },
+  {
+    "id": "lead-005",
+    "name": "AcuityHealth AI",
+    "domain": "acuityhealth.ai",
+    "website": "https://acuityhealth.ai",
+    "industry": "HealthTech / Clinical AI",
+    "location": "San Francisco, CA, USA",
+    "arrRange": "$3.1M - $4.0M",
+    "employees": 31,
+    "growthRate": "+52% YoY",
+    "techStack": ["React", "PyTorch", "FastAPI", "AWS HIPAA Enclave", "Auth0"],
+    "decisionMaker": {
+      "name": "Dr. Arjun Mehta",
+      "title": "Chief Executive Officer",
+      "email": "amehta@acuityhealth.ai",
+      "emailStatus": "VERIFIED (MX Passed)",
+      "linkedin": "https://linkedin.com/in/arjun-mehta-md"
+    },
+    "score": 96,
+    "scoreBreakdown": {
+      "icpFit": 98,
+      "growthSignal": 97,
+      "maPotential": 94,
+      "urgency": "High"
+    },
+    "aiInsights": "Exceptional clinical validation and explosive product adoption. Ready for strategic capital infusion & sales acceleration.",
+    "status": "Contacted",
+    "createdDate": "2026-08-26"
+  },
+  {
+    "id": "lead-006",
+    "name": "CyberArmor Security",
+    "domain": "cyberarmor.security",
+    "website": "https://cyberarmor.security",
+    "industry": "Cybersecurity / DevSecOps",
+    "location": "Seattle, WA, USA",
+    "arrRange": "$5.0M - $7.2M",
+    "employees": 45,
+    "growthRate": "+29% YoY",
+    "techStack": ["Rust", "TypeScript", "TailwindCSS", "Cloudflare", "MongoDB"],
+    "decisionMaker": {
+      "name": "Rachel Kim",
+      "title": "VP of Revenue & Partnerships",
+      "email": "rachel@cyberarmor.security",
+      "emailStatus": "VERIFIED (MX Passed)",
+      "linkedin": "https://linkedin.com/in/rachelkim-security"
+    },
+    "score": 87,
+    "scoreBreakdown": {
+      "icpFit": 88,
+      "growthSignal": 86,
+      "maPotential": 87,
+      "urgency": "Medium"
+    },
+    "aiInsights": "High LTV cybersecurity client base. Opportunity to automate channel partner outreach and direct enterprise acquisition.",
+    "status": "Enriched",
+    "createdDate": "2026-08-25"
+  }
+]
