@@ -10,8 +10,10 @@
 [![Prisma ORM](https://img.shields.io/badge/Prisma-5.22-2d3748?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ed?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 [![Author](https://img.shields.io/badge/Author-Sameep_Chaurasia-f59e0b?style=for-the-badge)](https://github.com/SameepChaurasia)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-00e599?style=for-the-badge&logo=vercel&logoColor=white)](https://caprae-capital-cyan.vercel.app/)
 
 <p align="center">
+  <a href="https://caprae-capital-cyan.vercel.app/"><b>🚀 Live Production App</b></a> •
   <a href="#-executive-overview--business-rationale">Executive Overview</a> •
   <a href="#-system-architecture">System Architecture</a> •
   <a href="#-core-features--capabilities">Core Features</a> •
@@ -314,14 +316,15 @@ docker-compose up --build
 
 ## ☁️ 1-Click Free Cloud Deployment (Vercel)
 
-Since this project is built with **Next.js 14 App Router**, it is optimized for 1-click zero-configuration deployment on **Vercel**:
+This project is deployed live on Vercel:
+* **Live Production URL:** [https://caprae-capital-cyan.vercel.app/](https://caprae-capital-cyan.vercel.app/)
 
+To deploy your own instance:
 1. Go to **[https://vercel.com](https://vercel.com)** and log in with your GitHub account.
 2. Click **"Add New..."** → **"Project"**.
 3. Import repository: **`SameepChaurasia/Caprae_Capital`**.
 4. Framework Preset will auto-detect as **Next.js**.
 5. Click **"Deploy"**.
-6. You will receive a live HTTPS URL in ~45 seconds (e.g. `https://caprae-capital.vercel.app`).
 
 ---
 
